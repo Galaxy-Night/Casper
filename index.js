@@ -1,11 +1,24 @@
 const { Client, Intents } = require('discord.js');
-const { token } = require('./config.json');
+const { token, dbUri } = require('./config.json');
+const { MongoClient } = require('mongodb');
 
-// Create a new client instance
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
-client.once('ready', () => {
-	console.log('Ready!');
+const dbClient = new MongoClient(dbUri);
+let db;
+
+// fires when the client has connected to Discord
+client.once('ready', async () => {
+	try {
+		await dbClient.connect();
+		db = dbClient.db('casper');
+		await db.command({ ping: 1 });
+		console.log('Connected to database');
+	}
+	catch (err) {
+		console.error(err);
+	}
+	console.log('Connected to Discord');
 });
 
 client.login(token);
