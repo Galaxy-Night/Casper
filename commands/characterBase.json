@@ -1,0 +1,133 @@
+{
+	"profBonus": 2,
+	"abilities": {
+		"str": {
+			"val": 10,
+			"overridemod": false,
+			"overrideval": 0,
+			"saveprof": false
+		},
+		"dex": {
+			"val": 10,
+			"overridemod": false,
+			"overrideval": 0,
+			"saveprof": false
+		},
+		"con": {
+			"val": 10,
+			"overridemod": false,
+			"overrideval": 0,
+			"saveprof": false
+		},
+		"int": {
+			"val": 10,
+			"overridemod": false,
+			"overrideval": 0,
+			"saveprof": false
+		},
+		"wis": {
+			"val": 10,
+			"overridemod": false,
+			"overrideval": 0,
+			"saveprof": false
+		},
+		"cha": {
+			"val": 10,
+			"overridemod": false,
+			"overrideval": 0,
+			"saveprof": false
+		}
+	},
+	"skills": {
+		"acrobatics": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"animal handling": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"arcana": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"athletics": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"deception": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"history": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"insight": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"intimidation": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"investigation": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"medicine": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"nature": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"perception": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"performance": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"persuasion": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"religion": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"sleight of hand": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"stealth": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		},
+		"survival": {
+			"prof": false,
+			"overrideMod": false,
+			"overrideVal": 0
+		}
+	}
+}
