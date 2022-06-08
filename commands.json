@@ -6,7 +6,8 @@
 			{
 				"name": "name",
 				"description": "The character's name",
-				"type": 3
+				"type": 3,
+				"required": true
 			}
 		]
 	},
@@ -78,6 +79,116 @@
 						"type": 4,
 						"min_value": 1,
 						"max_value": 30
+					}
+				]
+			},
+			{
+				"name": "proficiency",
+				"description": "Set a character's save or skill proficiency",
+				"type": 2,
+				"options": [
+					{
+						"name": "save",
+						"description": "Set a character's proficiency in a saving throw",
+						"type": 1,
+						"options": [
+							{
+								"name": "name",
+								"description": "The character's name",
+								"type": 3,
+								"required": true
+							},
+							{
+								"name": "strength",
+								"description": "Whether the character is proficient in strength saves",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "dexterity",
+								"description": "Whether the character is proficient in dexterity saves",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "constitution",
+								"description": "Whether the character is proficient in constitution saves",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "intelligence",
+								"description": "Whether the character is proficient in intelligence saves",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "wisdom",
+								"description": "Whether the character is proficient in wisdom saves",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "charisma",
+								"description": "Whether the character is proficient in charisma saves",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							}
+						]
 					}
 				]
 			}
