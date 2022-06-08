@@ -47,35 +47,35 @@
 					},
 					{
 						"name": "dexterity",
-						"description": "The character's strength score",
+						"description": "The character's dexterity score",
 						"type": 4,
 						"min_value": 1,
 						"max_value": 30
 					},
 					{
 						"name": "constitution",
-						"description": "The character's strength score",
+						"description": "The character's constitution score",
 						"type": 4,
 						"min_value": 1,
 						"max_value": 30
 					},
 					{
 						"name": "intelligence",
-						"description": "The character's strength score",
+						"description": "The character's intelligence score",
 						"type": 4,
 						"min_value": 1,
 						"max_value": 30
 					},
 					{
 						"name": "wisdom",
-						"description": "The character's strength score",
+						"description": "The character's wisdom score",
 						"type": 4,
 						"min_value": 1,
 						"max_value": 30
 					},
 					{
 						"name": "charisma",
-						"description": "The character's strength score",
+						"description": "The character's charisma score",
 						"type": 4,
 						"min_value": 1,
 						"max_value": 30
