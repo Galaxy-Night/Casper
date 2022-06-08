@@ -17,7 +17,69 @@
 			{
 				"name": "name",
 				"description": "The character's name",
-				"type": 3
+				"type": 3,
+				"required": true
+			}
+		]
+	},
+	{
+		"name": "set",
+		"description": "Sets some information about a character",
+		"options": [
+			{
+				"name": "ability",
+				"description": "Set one or more of a character's ability scores",
+				"type": 1,
+				"options": [
+					{
+						"name": "name",
+						"description": "The character's name",
+						"type": 3,
+						"required": true
+					},
+					{
+						"name": "strength",
+						"description": "The character's strength score",
+						"type": 4,
+						"min_value": 1,
+						"max_value": 30
+					},
+					{
+						"name": "dexterity",
+						"description": "The character's strength score",
+						"type": 4,
+						"min_value": 1,
+						"max_value": 30
+					},
+					{
+						"name": "constitution",
+						"description": "The character's strength score",
+						"type": 4,
+						"min_value": 1,
+						"max_value": 30
+					},
+					{
+						"name": "intelligence",
+						"description": "The character's strength score",
+						"type": 4,
+						"min_value": 1,
+						"max_value": 30
+					},
+					{
+						"name": "wisdom",
+						"description": "The character's strength score",
+						"type": 4,
+						"min_value": 1,
+						"max_value": 30
+					},
+					{
+						"name": "charisma",
+						"description": "The character's strength score",
+						"type": 4,
+						"min_value": 1,
+						"max_value": 30
+					}
+				]
 			}
 		]
 	}
