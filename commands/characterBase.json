@@ -5,37 +5,37 @@
 			"val": 10,
 			"overridemod": false,
 			"overrideval": 0,
-			"saveprof": false
+			"saveprof": 0
 		},
 		"dex": {
 			"val": 10,
 			"overridemod": false,
 			"overrideval": 0,
-			"saveprof": false
+			"saveprof": 0
 		},
 		"con": {
 			"val": 10,
 			"overridemod": false,
 			"overrideval": 0,
-			"saveprof": false
+			"saveprof": 0
 		},
 		"int": {
 			"val": 10,
 			"overridemod": false,
 			"overrideval": 0,
-			"saveprof": false
+			"saveprof": 0
 		},
 		"wis": {
 			"val": 10,
 			"overridemod": false,
 			"overrideval": 0,
-			"saveprof": false
+			"saveprof": 0
 		},
 		"cha": {
 			"val": 10,
 			"overridemod": false,
 			"overrideval": 0,
-			"saveprof": false
+			"saveprof": 0
 		}
 	},
 	"skills": {
