@@ -40,92 +40,92 @@
 	},
 	"skills": {
 		"acrobatics": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
-		"animal handling": {
-			"prof": false,
+		"animal_handling": {
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"arcana": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"athletics": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"deception": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"history": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"insight": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"intimidation": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"investigation": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"medicine": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"nature": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"perception": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"performance": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"persuasion": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"religion": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
-		"sleight of hand": {
-			"prof": false,
+		"sleight_of_hand": {
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"stealth": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		},
 		"survival": {
-			"prof": false,
+			"prof": 0,
 			"overrideMod": false,
 			"overrideVal": 0
 		}

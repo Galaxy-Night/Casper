@@ -89,7 +89,7 @@
 				"options": [
 					{
 						"name": "save",
-						"description": "Set a character's proficiency in a saving throw",
+						"description": "Set a character's saving throw proficiencies",
 						"type": 1,
 						"options": [
 							{
@@ -181,6 +181,361 @@
 									{
 										"name": "Proficiency",
 										"value": 1
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							}
+						]
+					},
+					{
+						"name": "skill",
+						"type": 1,
+						"description": "Set a character's skill proficiencies",
+						"options": [
+							{
+								"name": "name",
+								"description": "The character's name",
+								"type": 3,
+								"required": true
+							},
+							{
+								"name": "acrobatics",
+								"description": "Whether the character is proficient in acrobatics",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "animal_handling",
+								"description": "Whether the character is proficient in animal handling",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "arcana",
+								"description": "Whether the character is proficient in arcana",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "athletics",
+								"description": "Whether the character is proficient in athletics",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "deception",
+								"description": "Whether the character is proficient in deception",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "history",
+								"description": "Whether the character is proficient in history",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "insight",
+								"description": "Whether the character is proficient in insight",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "intimidation",
+								"description": "Whether the character is proficient in intimidation",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "investigation",
+								"description": "Whether the character is proficient in investigation",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "medicine",
+								"description": "Whether the character is proficient in medicine",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "nature",
+								"description": "Whether the character is proficient in nature",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "perception",
+								"description": "Whether the character is proficient in perception",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "performance",
+								"description": "Whether the character is proficient in performance",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "persuasion",
+								"description": "Whether the character is proficient in persuasion",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "religion",
+								"description": "Whether the character is proficient in religion",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "sleight_of_hand",
+								"description": "Whether the character is proficient in sleight of hand",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "stealth",
+								"description": "Whether the character is proficient in stealth",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
+									},
+									{
+										"name": "None",
+										"value": 0
+									}
+								]
+							},
+							{
+								"name": "survival",
+								"description": "Whether the character is proficient in survival",
+								"type": 4,
+								"choices": [
+									{
+										"name": "Proficiency",
+										"value": 1
+									},
+									{
+										"name": "Expertise",
+										"value": 2
 									},
 									{
 										"name": "None",
