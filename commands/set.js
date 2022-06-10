@@ -1,12 +1,6 @@
-const fs = require('node:fs');
+const utils = require('../utils');
 
-const subcommands = new Map();
-const subcommandFiles = fs.readdirSync('./commands/set');
-
-for (const file of subcommandFiles) {
-	const subcommand = require(`./set/${file}`);
-	subcommands.set(subcommand.name, subcommand);
-}
+const subcommands = utils.generateSubcommands('set');
 
 module.exports = {
 	name: 'set',
