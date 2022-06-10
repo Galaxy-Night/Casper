@@ -19,6 +19,6 @@ module.exports = {
 		if (result.updatedCount === 0)
 			await interaction.reply(`Something went wrong and I couldn't update ${name}'s proficiency bonus!`);
 		else
-			await interaction.reply(`${name}'s saving throw proficiencies have been updated!`);
+			await interaction.reply(`${name}'s proficiency bonus has been updated!`);
 	}
 };
