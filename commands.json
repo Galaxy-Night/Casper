@@ -88,6 +88,26 @@
 				"type": 2,
 				"options": [
 					{
+						"name": "bonus",
+						"description": "Set a character's proficiency bonus",
+						"type": 1,
+						"options": [
+							{
+								"name": "name",
+								"description": "The character's name",
+								"type": 3,
+								"required": true							
+							},
+							{
+								"name": "bonus",
+								"description": "The character's proficiency bonus",
+								"type": 4,
+								"required": true,
+								"min_value": 1
+							}
+						]
+					},
+					{
 						"name": "save",
 						"description": "Set a character's saving throw proficiencies",
 						"type": 1,
