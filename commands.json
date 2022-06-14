@@ -24,6 +24,181 @@
 		]
 	},
 	{
+		"name": "override",
+		"description": "Overrides a character's modifier on a check or save",
+		"options": [
+			{
+				"name": "ability",
+				"description": "Override a character's modifier on ability score checks. Does not affect skill checks",
+				"type": 2,
+				"options": [
+					{
+						"name": "strength",
+						"description": "Override the character's strength modifier",
+						"type": 1,
+						"options": [
+							{
+								"name": "name",
+								"description": "The character's name",
+								"type": 3,
+								"required": true
+							},
+							{
+								"name": "override",
+								"description": "Whether the character's strength modifier will be overriden",
+								"type": 5,
+								"required": true
+							},
+							{
+								"name": "value",
+								"description": "The value to override the character's strength modifier with",
+								"type": 4,
+								"required": true,
+								"min_val": -30,
+								"max_val": 30 
+							}
+						]
+					},
+					{
+						"name": "dexterity",
+						"description": "Override the character's dexterity modifier",
+						"type": 1,
+						"options": [
+							{
+								"name": "name",
+								"description": "The character's name",
+								"type": 3,
+								"required": true
+							},
+							{
+								"name": "override",
+								"description": "Whether the character's dexterity modifier will be overriden",
+								"type": 5,
+								"required": true
+							},
+							{
+								"name": "value",
+								"description": "The value to override the character's dexterity modifier with",
+								"type": 4,
+								"required": true,
+								"min_val": -30,
+								"max_val": 30 
+							}
+						]
+					},
+					{
+						"name": "constitution",
+						"description": "Override the character's constitution modifier",
+						"type": 1,
+						"options": [
+							{
+								"name": "name",
+								"description": "The character's name",
+								"type": 3,
+								"required": true
+							},
+							{
+								"name": "override",
+								"description": "Whether the character's constitution modifier will be overriden",
+								"type": 5,
+								"required": true
+							},
+							{
+								"name": "value",
+								"description": "The value to override the character's constitution modifier with",
+								"type": 4,
+								"required": true,
+								"min_val": -30,
+								"max_val": 30 
+							}
+						]
+					},
+					{
+						"name": "intelligence",
+						"description": "Override the character's intelligence modifier",
+						"type": 1,
+						"options": [
+							{
+								"name": "name",
+								"description": "The character's name",
+								"type": 3,
+								"required": true
+							},
+							{
+								"name": "override",
+								"description": "Whether the character's intelligence modifier will be overriden",
+								"type": 5,
+								"required": true
+							},
+							{
+								"name": "value",
+								"description": "The value to override the character's intelligence modifier with",
+								"type": 4,
+								"required": true,
+								"min_val": -30,
+								"max_val": 30 
+							}
+						]
+					},
+					{
+						"name": "wisdom",
+						"description": "Override the character's wisdom modifier",
+						"type": 1,
+						"options": [
+							{
+								"name": "name",
+								"description": "The character's name",
+								"type": 3,
+								"required": true
+							},
+							{
+								"name": "override",
+								"description": "Whether the character's wisdom modifier will be overriden",
+								"type": 5,
+								"required": true
+							},
+							{
+								"name": "value",
+								"description": "The value to override the character's wisdom modifier with",
+								"type": 4,
+								"required": true,
+								"min_val": -30,
+								"max_val": 30 
+							}
+						]
+					},
+					{
+						"name": "charisma",
+						"description": "Override the character's charisma modifier",
+						"type": 1,
+						"options": [
+							{
+								"name": "name",
+								"description": "The character's name",
+								"type": 3,
+								"required": true
+							},
+							{
+								"name": "override",
+								"description": "Whether the character's charisma modifier will be overriden",
+								"type": 5,
+								"required": true
+							},
+							{
+								"name": "value",
+								"description": "The value to override the character's charisma modifier with",
+								"type": 4,
+								"required": true,
+								"min_val": -30,
+								"max_val": 30 
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
 		"name": "set",
 		"description": "Sets some information about a character",
 		"options": [

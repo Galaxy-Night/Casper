@@ -1,8 +1,8 @@
 const utils = require('../utils');
 
-const subcommands = utils.generateSubcommands('set');
+const subcommands = utils.generateSubcommands('override');
 
 module.exports = {
-	name: 'set',
+	name: 'override',
 	execute: async function(interaction, db) { utils.runSubcommandOrGroup(subcommands, interaction, db); }
 };
